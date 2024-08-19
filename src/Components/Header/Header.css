@@ -1,0 +1,58 @@
+ul.categories {
+    padding: 20px;
+    margin-top: 30px;
+    cursor: pointer;
+    color: black;
+    font-weight: 900;
+    font-size: 16px;
+}
+
+ul {
+    list-style: none;
+}
+
+.nav-login button {
+    width: 80px;
+    height: 40px;
+    outline: none;
+    border: 1px solid #7a7a7a;
+    border-radius: 9px;
+    color: whitesmoke;
+    font-size: 18px;
+    font-weight: 500;
+    background: rgb(5, 118, 194);
+    cursor: pointer;
+    margin-right: 8px;
+    float: right;
+    margin-top: -20px;
+}
+
+.marq1 {
+    margin-top: 10px;
+    background-color: rgb(202, 24, 24);
+    color: white;
+    font-weight: 900;
+    width: 100%;
+    font-size: medium;
+    box-sizing: border-box;
+    border-style: solid;
+    line-height: 50px;
+    overflow: hidden;
+}
+
+@media (min-width: 300px) and (max-width: 768px) {
+    .categories {
+        width: 100%;
+        position: fixed;
+        top: 5rem;
+        right: 0px;
+        background: rgb(210, 233, 231);
+        z-index: 999;
+        padding: 0px !important;
+        margin-top: 0px !important;
+    }
+
+    .toggle {
+        color: black;
+    }
+}
